@@ -1,0 +1,28 @@
+criar  tabela  produtos (
+idprodutos int  not null auto_increment chave primária ,
+nome varchar ( 20 ) não nulo ,
+preco tinyint,
+quantidade varchar ( 20 ) não nula
+);
+
+inserir em (nome, preco, quantidade de produtos)
+valores ( ' frango ' , 20 , ' 2,4Kg ' ),
+	  ( ' café ' , 20 , ' 2 Unidade ' ),
+      ( ' refrigerante ' , 20 , ' 2,5 Litros ' ),
+      ( ' cenoura ' , 20 , ' 3 Unidade ' ),
+      ( ' agua mineral ' , 9 , ' 2 Litros ' ),
+      ( ' melao ' , 4 , ' 1,5Kg ' ),
+      ( ' macarrao ' , 2 , ' 2Kg ' );
+
+excluir  dos produtos
+onde idprodutos =  ' 4 ' ;
+
+atualizar produtos
+set idprodutos =  ' 4 '
+onde idprodutos =  ' 20 ' ;
+
+atualizar produtos
+set nome =  ' macarrao '
+onde idprodutos =  ' 2 ' ;
+
+selecione  *  dos produtos;
